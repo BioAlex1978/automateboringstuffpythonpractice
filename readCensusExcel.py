@@ -12,7 +12,7 @@ sheet = wb[wb.sheetnames[0]]
 countyData = {} #empty dictionary to hold county data, w/ States as first level keys which map to dictionaries of dictionaries
 # the data structure of countyData will be countyData[state abbrev][county]['tracts'/'pop']
 
-# TODO: Fill in countyData with each county's population and tracts
+# Fill in countyData with each county's population and tracts
 print('Reading rows...')
 # Iterate through the sheet, starting with row 2, because row 1 is column titles
 for row in range(2, sheet.max_row + 1):
