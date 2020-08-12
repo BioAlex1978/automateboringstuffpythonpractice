@@ -9,9 +9,9 @@
 
 # NOTES:
 # 1.) This program takes the spreadsheet as a command line argument
-# 2.) Text files are saved in a new directory named for the spreadsheet (minus .xlsx)
-# 3.) For now, to keep it simple, that directory is created in the same directory as the script
-# 4.) Text files will have as many lines as the longest column in the spreadsheet,
+# 2.) Text files are saved in a new directory named for the spreadsheet (minus .xlsx), in the
+#     current working directory
+# 3.) Text files will have as many lines as the longest column in the spreadsheet,
 #     so some may end with many linebreaks. Not sure how best to get around that.
 
 import sys, os, openpyxl
