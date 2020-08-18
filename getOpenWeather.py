@@ -47,7 +47,7 @@ response.raise_for_status()
 
 # NOTE: the weather data returned is formatted differently from the book's example. In the book, everything
 # was under the key 'list'. For OneCall, 'current' is its own key, and then the 'daily' key is a list
-# with ['daily][0] being the entry for tomorrow and so on
+# with ['daily'][0] being the entry for tomorrow and so on
 weatherData = json.loads(response.text)
 print(f'Current weather in {location}:')
 print(weatherData['current']['weather'][0]['main'] + ' - ' + weatherData['current']['weather'][0]['description'])
