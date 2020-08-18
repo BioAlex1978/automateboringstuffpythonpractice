@@ -8,7 +8,7 @@
 # this to use the OpenWeatherMap OneCall API to get the current weather and daily forecasts
 
 # in order to work, you need an app ID from OpenWeatherMap.org/api
-APPID = '87b1a61837ac8ce11d0fd7ab36c9a9aa'
+APPID = 'YOUR_APPID_HERE'
 
 import json, requests, sys
 
